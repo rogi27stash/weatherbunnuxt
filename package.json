@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fontsource-variable/onest": "^5.0.4",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/icon": "^1.0.0",
+    "@nuxt/image": "^1.7.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@primevue/themes": "4.0.0-rc.2",
+    "@unocss/nuxt": "^0.61.3",
+    "date-fns": "^3.6.0",
+    "nuxt": "3.12.3",
+    "primelocale": "^0.0.1",
+    "primevue": "4.0.0-rc.2",
+    "typescript": "^5.5.3",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "4.0.0-rc.2",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "@unocss/eslint-config": "^0.61.3",
+    "@vite-pwa/nuxt": "^0.9.1",
+    "eslint-plugin-sort": "^3.0.2",
+    "lightningcss": "^1.25.1"
+  }
+}
